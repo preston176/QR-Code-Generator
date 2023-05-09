@@ -12,6 +12,8 @@ function generateQR(){
     let mytext=document.getElementById("qrtext").value;
     let mysize=document.getElementById("size").value;
 
+    document.getElementById("loader").style.display = "block";
+
     if (mytext !=="" && mysize=="100")
     {
         myimg.src=gapi+"100x100"+"&chl="+mytext;
@@ -36,6 +38,7 @@ function generateQR(){
     {
         alert("Please Enter Text");
     }
+    
     /* The `return 1` statement is simply returning the value 1 when the QR code generation is
     successful. This can be used by other parts of the code to determine if the generation was
     successful or not. */
