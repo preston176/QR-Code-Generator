@@ -1,7 +1,9 @@
-function genQR()
+let generateButton = document.getElementById("Gen_Button");
+let myimg=document.getElementById("img");
+let gapi="https://chart.googleapis.com/chart?chf=bg,s,65432100&cht=qr&chs=";
+
+generateButton.addEventListener('click', function()
 {
-    let gapi="https://chart.googleapis.com/chart?chf=bg,s,65432100&cht=qr&chs=";
-    let myimg=document.getElementById("img");
     let mytext=document.getElementById("qrtext").value;
     let mysize=document.getElementById("size").value;
 
@@ -29,4 +31,5 @@ function genQR()
     {
         alert("Please Enter Text");
     }
-}
+
+});
