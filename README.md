@@ -46,3 +46,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any inquiries or questions, please feel free to reach out to [prestonnyamweya@gmail.com](mailto:prestonnyamweya@gmail.com).
 
+## Stats
+
+[![wakatime](https://wakatime.com/badge/user/d8868823-72bc-46a7-8dbd-396ba5326e3a/project/cacffb45-fa29-4317-8c22-3975e9c11c6b.svg)](https://wakatime.com/badge/user/d8868823-72bc-46a7-8dbd-396ba5326e3a/project/cacffb45-fa29-4317-8c22-3975e9c11c6b)
