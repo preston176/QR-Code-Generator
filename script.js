@@ -40,7 +40,6 @@ generateButton.addEventListener('click', function()
     }
     /* The `return 1` statement is simply returning the value 1 when the QR code generation is
     successful. This can be used by other parts of the code to determine if the generation was
-    successful or not. The comment "return 1 on success otherwise fail" suggests that this is the
-    intended purpose of the statement. */
+    successful or not. */
     return 1;
 });
