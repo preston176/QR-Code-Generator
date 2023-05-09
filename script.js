@@ -8,9 +8,7 @@ let gapi="https://chart.googleapis.com/chart?chf=bg,s,65432100&cht=qr&chs=";
 `generateButton` element that listens for a click event. When the button is clicked, the function
 inside the parentheses is executed. In this case, the function generates a QR code based on the text
 and size input by the user and displays it on the page. */
-
-generateButton.addEventListener('click', function()
-{
+function generateQR(){
     let mytext=document.getElementById("qrtext").value;
     let mysize=document.getElementById("size").value;
 
@@ -42,4 +40,6 @@ generateButton.addEventListener('click', function()
     successful. This can be used by other parts of the code to determine if the generation was
     successful or not. */
     return 1;
-});
+}
+
+generateButton.addEventListener('click', generateQR);
